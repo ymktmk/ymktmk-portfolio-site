@@ -1,0 +1,27 @@
+.header {
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+      height: 70px;
+      padding: 5px 50px;
+      position: fixed;
+      top: 0px;
+      width: 100%;
+}
+
+.right {
+      display: flex;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      width: 400px;
+}
+
+.right a {
+      color: black;
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Raleway, sans-serif;
+      padding: 10px;
+}
